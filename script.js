@@ -15,7 +15,7 @@ $(document).ready(function() {
   function hourUpdater() {
     var currentHour = dayjs().hour();
 
-    $("time-block").each(function() {
+    $(".time-block").each(function() {
       var blockHour = parseInt($(this).attr("id").split("-")[1]);
 
       if (blockHour < currentHour) {
