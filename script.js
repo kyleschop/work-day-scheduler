@@ -45,6 +45,6 @@ $(document).ready(function() {
   $("#hour-16 .description").val(localStorage.getItem("hour-16"));
   $("#hour-17 .description").val(localStorage.getItem("hour-17"));
 
-  $("currentDay").text(dayjs().format("dddd, MMMM D, YYYY"));
+  $("#currentDay").text(dayjs().format("dddd, MMMM D, YYYY"));
 
 });
