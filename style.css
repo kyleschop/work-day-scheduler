@@ -13,6 +13,10 @@ textarea {
   padding: 10px;
 }
 
+.on {
+  display: none;
+}
+
 .description {
   white-space: pre-wrap;
 }

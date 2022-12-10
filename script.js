@@ -5,10 +5,10 @@ $(document).ready(function() {
 
     localStorage.setItem(time,value);
 
-    $(".notification").addClass("show");
+    $(".notification").removeClass("on");
 
     setTimeout(function() {
-      $(".notification").removeClass("show");
+      $(".notification").addClass("on");
     }, 5000);
   });
 
